@@ -1,10 +1,49 @@
 /**app.wxss**/
-.container {
+page {
+  background-color: #fff;
+}
+
+.bgw {
+  background-color: #fff;
+}
+
+.mt20 {
+  margin-top: 20px; 
+}
+/* 封装灰色间隔的类 */
+.divider {
+  height: 20rpx;
+  background-color: #ccc;
+}
+
+/* 封装细线边框的类 */
+.bdr {
+  position: relative;
+}
+
+.bdr::after {
+  content: "";
+  width: 1rpx;
   height: 100%;
+  background-color: #ccc;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* 封装箭头的类 */
+.arrow {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+  align-items: center;
+}
+
+.arrow::after {
+  content: "";
+  width: 16rpx;
+  height: 16rpx;
+  border-top: 3rpx solid #ccc;
+  border-right: 3rpx solid #ccc;
+  transform: rotate(45deg);
+  display: block;
+}
