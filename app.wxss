@@ -1,6 +1,6 @@
 /**app.wxss**/
 page {
-  background-color: #fff;
+  background-color: #f1f1f1;
 }
 
 .bgw {
@@ -46,4 +46,21 @@ page {
   border-right: 3rpx solid #ccc;
   transform: rotate(45deg);
   display: block;
+}
+
+/* 封装内容水平垂直居中的类 */
+.center {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 封装列表的类 */
+.cell {
+  font-size: 16px;
+}
+
+.cell-item {
+  border-bottom: 1rpx solid #ddd;
+  padding: 20rpx 30rpx;
 }

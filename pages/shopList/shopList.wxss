@@ -1,0 +1,45 @@
+/* pages/shopList/shopList.wxss */
+page {
+  background-color: #fff;
+}
+.shop {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.shop-img {
+  width: 160rpx;
+  height: 160rpx;
+}
+.shop-info {
+  width: 520rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #666;
+}
+.shop-title {
+  font-size: 16px;
+  color: #333;
+}
+.shop-star {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}
+.star-after {
+  color: #e2e2e2;
+}
+.star-before {
+  color: #f19e38;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 90%;
+  overflow: hidden;
+}
+
+

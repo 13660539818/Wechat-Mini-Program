@@ -74,6 +74,25 @@ Page({
     autoplay: true,
     interval: 3000,
     duration: 1000,
-    circular: true
+    circular: true,
+    silderList: []
+  },
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function(options) {
+    wx.request({
+      url: 'http://127.0.0.1:3000/getImg',
+      method: 'GET',
+      dataType: 'json',
+      success:res => {
+        console.log(res.data.img_url);
+        // this.setData({
+        //   silderList: res.data
+        // })
+      },
+      fail: function(res) {},
+      complete: function(res) {}
+    });
   }
 })

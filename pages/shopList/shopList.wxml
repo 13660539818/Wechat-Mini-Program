@@ -1,0 +1,27 @@
+<!--pages/shopList/shopList.wxml-->
+<view class='shop'>
+  <image class='shop-img' src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1024604760,1889367281&fm=26&gp=0.jpg'></image>
+  <view class='shop-info'>
+    <text class='shop-title'>店铺名称：</text>
+    <text class='shop-tel'>电话：</text>
+    <text class='shop-add'>地址：</text>
+    <text class='shop-time'>营业时间：</text>
+  </view>
+  <view class='shop-star'>
+    <view class='star-after'>★★★★★</view>
+    <view class='star-before'>★★★★★</view>
+  </view>
+</view>
+<view class='shop'>
+  <image class='shop-img' src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1024604760,1889367281&fm=26&gp=0.jpg'></image>
+  <view class='shop-info'>
+    <text class='shop-title'>店铺名称：</text>
+    <text class='shop-tel'>电话：</text>
+    <text class='shop-add'>地址：</text>
+    <text class='shop-time'>营业时间：</text>
+  </view>
+  <view class='shop-star'>
+    ★★★★★
+  </view>
+</view>
+
