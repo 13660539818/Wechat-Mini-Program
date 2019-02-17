@@ -25,3 +25,5 @@
   </view>
 </view>
 
+<view class='loadmore loading'>正在加载...</view>
+

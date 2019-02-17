@@ -24,22 +24,13 @@ page {
 .shop-title {
   font-size: 16px;
   color: #333;
+  width: 370rpx;
 }
 .shop-star {
   position: absolute;
   right: 20rpx;
   top: 20rpx;
 }
-.star-after {
-  color: #e2e2e2;
-}
-.star-before {
-  color: #f19e38;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 90%;
-  overflow: hidden;
-}
+
 
 
